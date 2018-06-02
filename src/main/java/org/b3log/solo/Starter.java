@@ -66,7 +66,6 @@ public final class Starter {
      */
     public static void main(final String[] args) throws Exception {
         final Logger logger = Logger.getLogger(Starter.class);
-        logger.info("Hello World");
         final Options options = new Options();
         final Option listenPortOpt = Option.builder("lp").longOpt("listen_port").argName("LISTEN_PORT")
                 .hasArg().desc("listen port, default is 8080").build();
